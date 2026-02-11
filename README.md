@@ -181,6 +181,9 @@ Lower score → higher eviction probability.
 * Distributed cache simulation
 * Visualization of cache timeline
 
+##Deployment
+https://intelligent-api-cache-eviction.streamlit.app/
+
 ## Author
 Samriddhi Shaw
 
