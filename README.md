@@ -107,24 +107,21 @@ source .venv/bin/activate
 
 ### Install Dependencies
 ```
-pip install fastapi uvicorn streamlit requests scikit-learn joblib pandas
+pip install -r requirements.txt
 ```
 
 ## Running the Project
+Deployment
 ### Start Backend
-```
-uvicorn main:app --reload
-```
-
 Backend runs at:
 ```
-http://127.0.0.1:8000
+https://intelligent-api-cache.onrender.com
 ```
 
 ### Start Dashboard
-Open another terminal:
+Frontend runs at:
 ```
-streamlit run frontend/app.py
+https://intelligent-api-cache-eviction.streamlit.app/
 ```
 
 ## API Endpoints
@@ -180,9 +177,6 @@ Lower score → higher eviction probability.
 * Reinforcement learning eviction
 * Distributed cache simulation
 * Visualization of cache timeline
-
-## Deployment
-https://intelligent-api-cache-eviction.streamlit.app/
 
 ## Author
 Samriddhi Shaw
